@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
     <body>
-        <h1>HOME PAGE</h1>
+        <h1>CONTACTS</h1>
 
 
     </body>

@@ -11,8 +11,13 @@ class HomeController extends Controller {
     public function getHome() {
         $allDresses = Dress::all();
 
-        dd($allDresses); 
-        return view('homePage');
+        // dd($allDresses);
+
+        $data = [
+            'dresses' => $allDresses,
+        ];
+
+        return view('homePage', $data);
     }
 
     public function getContacts() {

@@ -9,6 +9,10 @@
     </head>
     <body>
         <h1>HOME PAGE</h1>
+        @foreach ($dresses as $key => $dress)
+            <p>{{ $dress->marca }}</p>
+
+        @endforeach
 
 
     </body>
